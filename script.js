@@ -9,13 +9,15 @@ document.getElementById("play").addEventListener("click", function(){
     griglia.append(contenuto);
     for (let numero = 1; numero<=livello; numero++) {
         const colonna = document.createElement("div");
+        colonna.setAttribute("id", "colonnina");
         colonna.setAttribute("class", "col-1");
+        colonna.setAttribute("onClick", "cece()");
         contenuto.append(colonna);
         colonna.append(testo);
         testo++;
+        
     }
 }
-
 })
 
 function play(){
@@ -24,24 +26,21 @@ let valore = document.getElementById("livelli").value;
 return valore;
 }
 
-function colora(){
-
-    document.getElementsByClassName(".col-1").style.backgroundColor = '';
-   
-document.getElementsByClassName(".col-1").addEventListener("click", function(){
-    let colore = color();
-})
-
-
-
-
-
-/*function color(){
-    colonna.setAttribute("colore");
-  console.log("colore");
-
+function cece(){
+let asas=document.getElementsByClassName("col-1");
+asas.setAttribute("style","background-color: red;");
+    console.log("click!")
 }
-*/
+   
+
+
+//color();
+
+
+
+
+
+
 
 
 
