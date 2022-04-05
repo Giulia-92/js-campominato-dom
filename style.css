@@ -37,10 +37,14 @@ align-items: center;
   
 }
 .colore{
-    height: 60px;
-    width: 60px;
+    
     background-color: rgb(60, 101, 177);
 }
+.bomb{
+    background-color: darkred;
+    background-image: url(./png-transparent-cartoon-explosion-box-bomb-explosion-cartoon.png);
+}
+
 #play{
     background-color: midnightblue;
     color: white;

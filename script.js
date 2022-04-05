@@ -24,20 +24,32 @@ let valore = document.getElementById("livelli").value;
 return valore;
 }
 
+function colora(){
 
-
-
-//document.querySelector("col-1").addEventListener("click", function(){
- 
-//})
-
-
-//function color(){
-    console.log ("colore")
-//}
+    document.getElementsByClassName(".col-1").style.backgroundColor = '';
+   
+document.getElementsByClassName(".col-1").addEventListener("click", function(){
+    let colore = color();
+})
 
 
 
 
 
+/*function color(){
+    colonna.setAttribute("colore");
+  console.log("colore");
 
+}
+*/
+
+
+
+
+/*const bnumber = 16;
+let bombs = [];
+function bomb(){
+    while(bombs.length <= bnumber){
+
+    }
+}*/
