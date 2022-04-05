@@ -1,0 +1,71 @@
+debug{
+    border: 1px solid grey;
+}
+
+
+header{
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+}
+.Titolo{
+    padding-top: 20px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.left{
+  margin-left: 40px;
+  
+}
+.row{  
+justify-content: center;
+align-items: center;
+}
+
+.col-1{
+
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aqua;
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+.right{
+  margin-right: 40px;
+  margin-top:20px;
+  
+}
+.colore{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(60, 101, 177);
+}
+#play{
+    background-color: midnightblue;
+    color: white;
+    height:30px;
+    width:70px;
+    border-radius: 10px;
+}
+#livelli{
+    height:30px;
+    border-radius: 10px;
+}
+.sfondo{
+    background-color: aqua;
+    height:600px;
+    width:100%;
+}
+p{
+    font-size:30px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;;
+    padding-top: 20%;
+    padding-left:30%;
+}
+.partefinale{
+   margin-left:30px;
+    height: 40px;
+}
+
