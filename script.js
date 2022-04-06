@@ -11,7 +11,7 @@ document.getElementById("play").addEventListener("click", function(){
         const colonna = document.createElement("div");
         colonna.setAttribute("id", "colonnina");
         colonna.setAttribute("class", "col-1");
-        colonna.setAttribute("onClick", "cece()");
+        colonna.addEventListener("click",cece)
         contenuto.append(colonna);
         colonna.append(testo);
         testo++;
@@ -27,28 +27,16 @@ return valore;
 }
 
 function cece(){
-let asas=document.getElementsByClassName("col-1");
-asas.setAttribute("style","background-color: red;");
-    console.log("click!")
+this.style.backgroundColor ="rgb(60, 101, 177)";
+console.log("click!")
 }
+
    
 
-
-//color();
-
-
-
-
-
-
-
-
-
-
-/*const bnumber = 16;
+const bnumber = 16;
 let bombs = [];
 function bomb(){
     while(bombs.length <= bnumber){
 
     }
-}*/
+}
